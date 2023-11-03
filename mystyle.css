@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Monserat, sans-serif;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#shopping-list {
+  background-color: azure;
+  padding: 2em;
+  border-radius: 0.85rem;
+  box-shadow: 0 0 0.1rem;
+}
+
+input[type='text'] {
+  margin: 1rem 0 0.3rem;
+  display: block;
+  width: 100%;
+}
+
+input[type='checkbox'] {
+  margin: 0;
+  display: inline !important;
+  box-shadow: none;
+  width: auto;
+}
+
+.empty-items {
+  margin-top: 1rem;
+}
+
+ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.btn {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #111;
+}
+
+.btn-primary {
+  color: white;
+  background-color: blueviolet;
+}
+
+.btn-primary:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ddd;
+}
+
+.done:hover {
+  color: #aaa;
+}
+
+.highPriority {
+  color: #ff7300;
+  font-weight: 700;
+}
