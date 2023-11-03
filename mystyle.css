@@ -82,3 +82,13 @@ ul > li {
   color: #ff7300;
   font-weight: 700;
 }
+
+.highPriority.done {
+  color: #e1873e;
+  font-weight: 700;
+}
+
+.highPriority.done:hover {
+  color: #eda265;
+  font-weight: 700;
+}
