@@ -44,6 +44,10 @@ ul {
   list-style: none;
 }
 
+ul > li {
+  cursor: pointer;
+}
+
 .btn {
   display: block;
   margin-top: 0.5rem;
